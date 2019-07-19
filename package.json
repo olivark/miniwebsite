@@ -1,21 +1,23 @@
 {
-  "name": "njs",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "dependencies": {
-    "@zeit/next-sass": "^1.0.1",
-    "next": "^9.0.2",
-    "node-sass": "^4.12.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
-  },
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
-  },
-  "devDependencies": {
-    "prettier": "1.18.2"
-  }
+    "name": "njs",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+        "@zeit/next-sass": "^1.0.1",
+        "next": "^9.0.2",
+        "node-sass": "^4.12.0",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6"
+    },
+    "scripts": {
+        "dev": "next",
+        "build": "next build",
+        "start": "next start",
+        "export": "next export",
+        "deploy": "npm run build && npm run export"
+    },
+    "devDependencies": {
+        "prettier": "1.18.2"
+    }
 }
